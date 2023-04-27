@@ -1,55 +1,43 @@
 === CPJ FAQ Builder ===
 Contributors:      Paul Jarvis
-Tags:              block
-Tested up to:      6.1
-Stable tag:        0.1.0
+Tags:              block, faq, faqs, 
+Tested up to:      6.2
+Stable tag:        1.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-This block creates a list of faqs with answers to be displayed when clicked
+A block plugin for creating FAQs. The block adds a section to enter question and a section to enter the answer. On the front end, the question is displayed and the answer is only displayed when the question is clicked, the answer is removed when question is clicked again. This allows a long list of questions and letting user only view the ones they are intersted in. Multiple answers can be displayed at the same time. To add the block to your page, click Add block then search for 'cpj' and then select cpj-faq-builder.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+A block plugin for creating FAQs. The block adds a section to enter question and a section to enter the answer. On the front end, the question is displayed and the answer is only displayed when the question is clicked, the answer is removed when question is clicked again. This allows a long list of questions and letting user only view the ones they are intersted in. Multiple answers can be displayed at the same time. To add the block to your page, click Add block then search for 'cpj' and then select cpj-faq-builder.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
 
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/cpj-faq-builder` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/cpj-faq-builder` directory, or install the plugin through the WordPress plugins screen directly. Go to plugins, click add new, then click Upload Plugin, Upload plugin, click install now, then click activate. To add to page, click add block, search for 'cpj' then select cpj-faq-builder. 
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+Can I change the color and size of the text?
 
-An answer to that question.
+Yes, use the controls in the page editor on the right side styles panel.
 
-= What about foo bar? =
+How can I get support for this plugin
 
-Answer to foo bar dilemma.
+Go to cpauljarivs.com
+
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. List of FAQs
+2. FAQs with answer displayed
+3. Faqs with multiple answers displayed
+4. Faq with some answers hidden and others displayed.
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.0 =
 * Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.

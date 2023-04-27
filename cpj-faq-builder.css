@@ -1,21 +1,21 @@
 /***************************
  * CSS File for CPJ Faq Builder plugin
  * Author: Paul Jarvis
- * ver: 0.1.0
+ * ver: 1.0.0
  * License: GNU GPL
  */
 
- .faq-question{
+ .cpj-faq-question{
     font-weight:600;
     font-size:22px;
     line-height:28px;
 
  }
- .faq-question:hover{
+ .cpj-faq-question:hover{
     cursor:pointer;
     text-decoration:underline;
  }
- .faq-answer{
+ .cpj-faq-answer{
     display:none;
     font-size:16px;
     line-height:20px;

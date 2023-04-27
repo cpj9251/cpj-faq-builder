@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name:       CPJ FAQ Builder
- * Description:       A block plugin for FAQs, a section to enter question and answer. On the front end, the question is clickable and then displays or removes the answer. To add the block to your page, click Add block then search for 'cpj' and then select cpj-faq-builder.
- * Requires at least: 6.2
+ * Description:       A block plugin for creating FAQs. The block adds a section to enter question and a section to enter the answer. On the front end, the question is displayed and the answer is only displayed when the question is clicked, the answer is removed when question is clicked again. This allows a long list of questions and letting user only view the ones they are intersted in. Multiple answers can be displayed at the same time. To add the block to your page, click Add block then search for 'cpj' and then select cpj-faq-builder.
+ * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           1.0.0
  * Author:            Paul Jarvis
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html

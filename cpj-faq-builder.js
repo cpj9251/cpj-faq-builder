@@ -7,7 +7,7 @@
 
 jQuery(document).ready(function($){
 
-        $(".faq-question").click(function(){
+        $(".cpj-faq-question").click(function(){
 
             $(this).next().toggle();
 

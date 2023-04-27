@@ -20,13 +20,13 @@ export default function save({ attributes }) {
 		
 		<div { ...useBlockProps.save() }>
 		<RichText.Content 
-			className='faq-question'
+			className='cpj-faq-question'
 			tagName = "p"
 			value={ attributes.contentQuestion }
 			
 		/>
 		<RichText.Content 
-			className='faq-answer'
+			className='cpj-faq-answer'
 			tagName = "p"
 			value={ attributes.contentAnswer }
 			

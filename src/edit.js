@@ -44,7 +44,7 @@ export default function Edit( { attributes, setAttributes } ) {
 		<p { ...blockProps }>
 		<RichText 
 			tagName = 'p'
-			className = 'faq-question'
+			className = 'cpj-faq-question'
 			onChange = { onChangeQuestion }
 			value={ attributes.contentQuestion }
 			placeholder={ __(
@@ -53,7 +53,7 @@ export default function Edit( { attributes, setAttributes } ) {
 		/>
 		<RichText
 			tagName = 'p'
-			className = 'faq-answer'
+			className = 'cpj-faq-answer'
 			onChange = { onChangeAnswer }
 			value={ attributes.contentAnswer }
 			placeholder={ __(
