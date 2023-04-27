@@ -25,7 +25,7 @@ Can I change the color and size of the text?
 
 Yes, use the controls in the page editor on the right side styles panel.
 
-How can I get support for this plugin
+How can I get support or customizations for this plugin
 
 Go to cpauljarivs.com
 
